@@ -8,9 +8,6 @@
 </head>
 <body>
 
-<p>
- 
-</p>
 	<form action="" method="POST">
 	    <fieldset>
 	        <label>Title: <input type="text" name="title"></label>
@@ -19,7 +16,6 @@
 	        <input type="submit" value="Submit">
 	    </fieldset>
 	</form>
-
 
 </body>
 </html>
