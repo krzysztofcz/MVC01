@@ -42,6 +42,19 @@ public class Mvc01 extends HttpServlet {
 			request.setAttribute("rate", rate);
 			
 			
+			String tt = request.getParameter("tt");
+			request.setAttribute("tt", tt);
+			
+			String aa = "Aaaaaa";
+			String bb = "test bbb 123 321";
+			
+			request.setAttribute("a",aa);
+			request.setAttribute("b",bb);
+			
+			getServletContext().setAttribute("t", aa+bb);
+			
+			
+			
 			getServletContext().getRequestDispatcher("/WEB-INF/views/mvc01.jsp")
 				.forward(request, response);
 			
